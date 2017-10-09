@@ -43,11 +43,20 @@ public class Arrays {
 	 * 3-d array is kinda like a collection of 2d arrays
 	 * 3d has nothing to do with physical world dimensions... More like a group or nest of data. Location within a location.
 	 * 
+	 * Overall, data structures need 5 main components.
+	 * 1) Access
+	 * 2) Insert
+	 * 3) Delete
+	 * 4) Find
+	 * 5) Sort
+	 * 
 	 */
 	
 	/**
 	 * I think my goal with this is to re-create the functions of a list as an array, to practice array manipulation.
 	 * To make it simple I'll just assume all arrays of Ints
+	 * 
+	 * I want to implement the 5 main components listed above
 	 * @param args
 	 */
 	public static void Main(String[] args)
