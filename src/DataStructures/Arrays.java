@@ -33,12 +33,46 @@ public class Arrays {
 	 * 
 	 * If we dont know size, list would probably be a better idea.
 	 * 
+	 * Multi Dimensional or Matrix
+	 * -----------------
+	 * Basically an array of arrays
+	 * Each element has 2 indexes, a row and column
+	 * Example use: Weather app, row is a day in the year, column is temperature reading at hours of the day.
 	 * 
+	 * Can be more than 2 dimensions.
+	 * 3-d array is kinda like a collection of 2d arrays
+	 * 3d has nothing to do with physical world dimensions... More like a group or nest of data. Location within a location.
 	 * 
+	 */
+	
+	/**
+	 * I think my goal with this is to re-create the functions of a list as an array, to practice array manipulation.
+	 * To make it simple I'll just assume all arrays of Ints
+	 * @param args
 	 */
 	public static void Main(String[] args)
 	{
 		
+	}
+	
+	/**
+	 * Hard code an array resizer, this assumes the extra slots (if downsizing) are empty. If upsizing, we just make it longer.
+	 * 
+	 * @param original original array that we want resized
+	 * @param newSize size of array we want to return
+	 * @return
+	 */
+	public int[] resize(int[] original, int newSize)
+	{
+		//Get new size, create new array of this size
+		int[] newArray = new int[newSize];
+		for(int i=0; i <  newSize; i++)
+		{
+			newArray[i] = original[i];
+		}
+
+		
+		return newArray;
 	}
 
 }
