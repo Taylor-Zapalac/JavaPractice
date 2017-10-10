@@ -87,7 +87,13 @@ public class Arrays {
 		if(foundAt >= 0 ) System.out.println(150 + " found at index: "+foundAt);
 		else System.out.println("Not found.");
 		
+		System.out.println("\n");
+
+		
 	}
+	
+
+
 	
 	/**
 	 * Finds passed value within array.
@@ -234,7 +240,7 @@ public class Arrays {
 	}
 	
 	/**
-	 * Genenerate array of random numbers with specified size.
+	 * Generate array of random numbers with specified size.
 	 * Just using this for testing.
 	 * @param size
 	 * @return
